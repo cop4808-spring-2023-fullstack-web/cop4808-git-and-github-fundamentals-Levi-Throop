@@ -20,7 +20,7 @@ html {
     border-radius: 4px;
     display: grid;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(100px, auto) repeat(6, 80px);
+    grid-template-rows: minmax(100px, auto) repeat(6, 80px); /*Changed repeat() from (5,80px) to (6,50px) to account for new row added*/
     gap: 2px;
 }
 
@@ -108,10 +108,10 @@ button {
 .percent:active {
     background-color: rgb(123, 189, 255);
 }
-.operator_new {
+.operator_new { /*Added new button class to style it according to instructions*/
     background-color:aqua;
     font-weight: bold;
 }
-.operator_new:focus {
+.operator_new:focus { /*Decided to keep the operator focus color option on the new buttons to match as well*/
     background-color: #2003f8;
 }

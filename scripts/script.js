@@ -45,7 +45,7 @@ function clickButton() {
                 clearDisplay();
                 updateDisplay();
             }
-              else if(buttons[i].classList.contains('operator_new')) {
+              else if(buttons[i].classList.contains('operator_new')) { //Added new buttons class
                 inputOperator(buttons[i].value);
         }
         }
@@ -182,7 +182,7 @@ function operate(x, y, op) {
         }
     }
       else if(op === 'ln') {
-        return Math.log(x).toFixed(9);
+        return Math.log(x).toFixed(9); // else if statements for new button arithmetic and adjusted length of output
     }
     else if(op === 'sqrt') {
         return Math.sqrt(x).toFixed(9);
