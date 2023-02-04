@@ -41,9 +41,13 @@ function clickButton() {
             } else if(buttons[i].classList.contains('sign')) {
                 inputSign(displayValue);
                 updateDisplay();
-            } else if(buttons[i].classList.contains('clear'))
+            } else if(buttons[i].classList.contains('clear')) {
                 clearDisplay();
                 updateDisplay();
+            }
+              else if(buttons[i].classList.contains('operator_new')) {
+                inputOperator(buttons[i].value);
+        }
         }
     )}
 }
@@ -176,6 +180,9 @@ function operate(x, y, op) {
         } else {
         return x / y;
         }
+    }
+      else if(op === 'ln') {
+        return Math.log(x);
     }
 }
 
