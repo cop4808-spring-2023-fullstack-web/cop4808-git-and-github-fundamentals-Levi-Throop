@@ -110,6 +110,7 @@ button {
 }
 .operator_new {
     background-color:aqua;
+    font-weight: bold;
 }
 .operator_new:focus {
     background-color: #2003f8;
