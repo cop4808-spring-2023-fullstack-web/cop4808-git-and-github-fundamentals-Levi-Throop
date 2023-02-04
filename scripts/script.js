@@ -182,16 +182,16 @@ function operate(x, y, op) {
         }
     }
       else if(op === 'ln') {
-        return Math.log(x);
+        return Math.log(x).toFixed(9);
     }
     else if(op === 'sqrt') {
-        return Math.sqrt(x);
+        return Math.sqrt(x).toFixed(9);
     }
     else if(op === 'x^2') {
-        return Math.pow(x,2);
+        return Math.pow(x,2).toFixed(9);
     }
     else if(op === '|x|') {
-        return Math.abs(x);
+        return Math.abs(x).toFixed(9);
     }
 }
 
