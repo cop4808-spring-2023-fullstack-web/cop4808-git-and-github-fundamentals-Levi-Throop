@@ -184,6 +184,15 @@ function operate(x, y, op) {
       else if(op === 'ln') {
         return Math.log(x);
     }
+    else if(op === 'sqrt') {
+        return Math.sqrt(x);
+    }
+    else if(op === 'x^2') {
+        return Math.pow(x,2);
+    }
+    else if(op === '|x|') {
+        return Math.abs(x);
+    }
 }
 
 function roundAccurately(num, places) {
