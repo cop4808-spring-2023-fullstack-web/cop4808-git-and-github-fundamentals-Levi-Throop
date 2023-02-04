@@ -3,7 +3,7 @@
 ## https://github.com/cop4808-spring-2023-fullstack-web/cop4808-git-and-github-fundamentals-Levi-Throop.git
 
 ## Calculator GIF :sunglasses:
-![](https://github.com/cop4808-spring-2023-fullstack-web/cop4808-git-and-github-fundamentals-Levi-Throop/blob/main/Calculator_test.gif)
+![](https://github.com/cop4808-spring-2023-fullstack-web/cop4808-git-and-github-fundamentals-Levi-Throop/blob/main/Calculator_gif.gif)
 
 ## First step - Adding new buttons 
 In the first step I added 4 new lines of buttons with a new class labeled 'operator_new'. This is for the 4 new functions which are natural log, square root, x squared, and absolute value. 
